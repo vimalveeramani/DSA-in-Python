@@ -56,6 +56,7 @@ Each data structure is implemented in its own Python module and provides methods
 This section contains implementations of various algorithms, such as:
 
 - Sorting algorithms (Bubble Sort, Merge Sort, Quick Sort, etc.)
+- [BubbleSort](#BubbleSort.py) 
 - Searching algorithms (Linear Search, Binary Search, etc.)
 - Graph algorithms (Breadth-First Search, Depth-First Search, Dijkstra's Algorithm, etc.)
 - Dynamic Programming algorithms
