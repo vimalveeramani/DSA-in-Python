@@ -4,5 +4,6 @@ def fun(x,y):
   else:
     return fun(x-1,x+y) 
 
-x,y=input("Enter the value of x and y :")
+x=int(input("Enter the value of x :")) 
+y=int(input("Enter the value of y :"))
 print("recursion", fun(x,y)) 
