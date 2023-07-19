@@ -60,16 +60,16 @@ obj.printCQueue()
 
 
 '''
-Sure, I'd be happy to explain the code to you line by line!
+
 
 This code implements a circular queue data structure in Python. Here's what each line does:
 
 python
-Copy
+
 class MyCircularQueue():
 Defines a class called MyCircularQueue that will contain the methods and attributes of the circular queue.
 python
-Copy
+
     def __init__(self, k):
         self.k = k
         self.queue = [None] * k
@@ -79,7 +79,7 @@ Initializes the k attribute to the input k.
 Initializes a list called queue with k None values.
 Initializes the head and tail pointers to -1 (meaning the queue is empty).
 python
-Copy
+
     def enqueue(self, data):
         if ((self.tail + 1) % self.k == self.head):
             print("The circular queue is full\n")
